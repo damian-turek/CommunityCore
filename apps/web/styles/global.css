@@ -1,0 +1,25 @@
+:root {
+    --back-ground-color: #F5F7F9;
+    --color-light-green: #31A889;
+    --color-dark-green: #13413F;
+    --color-white: #FFFFFF;
+
+    --main-font: 'Ubuntu', sans-serif;
+
+    --large-font-size: clamp(20px, 2vw, 25px);
+    --normal-font-size: clamp(12px, 2vw, 18px);
+}
+
+* {
+    margin: 0;
+
+    font-family: var(--main-font), serif;
+}
+
+body {
+    background-color: var(--back-ground-color);
+}
+
+main {
+    padding: 100px 0;
+}
