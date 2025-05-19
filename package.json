@@ -15,5 +15,8 @@
   "devDependencies": {
     "@types/cors": "^2.8.18",
     "turbo": "^2.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
   }
 }

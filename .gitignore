@@ -16,7 +16,7 @@ build/
 .next/
 
 # Env pliki
-.env
+apps/api/.env
 **/.env
 
 # Docker
