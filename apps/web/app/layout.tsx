@@ -1,6 +1,5 @@
 import React from 'react'
-
-import { Ubuntu } from 'next/font/google';
+import { Ubuntu } from 'next/font/google'
 
 export const metadata = {
   title: 'Community Core',
@@ -10,16 +9,24 @@ export const metadata = {
 const ubuntu = Ubuntu({
   subsets: ['latin'],
   weight: ['300', '400', '500', '700'],
-  style: ['normal', 'italic']
+  style: ['normal', 'italic'],
+  variable: '--font-ubuntu',
 });
 
 export default function RootLayout({
-  children,
-}: {
+                                     children,
+                                   }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={ubuntu.className}>
+      <head>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+        <title>{metadata.title}</title>
+      </head>
       <body>{children}</body>
     </html>
   )

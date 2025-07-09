@@ -4,16 +4,13 @@
     --color-dark-green: #13413F;
     --color-white: #FFFFFF;
 
-    --main-font: 'Ubuntu', sans-serif;
-
     --large-font-size: clamp(20px, 2vw, 25px);
     --normal-font-size: clamp(12px, 2vw, 18px);
+    --slogan-font-size: clamp(36px, 8vw, 64px);
 }
 
 * {
     margin: 0;
-
-    font-family: var(--main-font), serif;
 }
 
 body {

@@ -1,7 +1,9 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Header } from '../components'
+
+import { Header, Hero } from '../components'
+
 import '../styles/global.css';
 
 type User = { 
@@ -23,6 +25,7 @@ export default function UsersPage() {
         <>
             <Header/>
             <main>
+                <Hero/>
                 <h1>Users</h1>
                 <ul>
                     {users.map(u => (
