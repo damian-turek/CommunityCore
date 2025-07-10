@@ -7,6 +7,7 @@
     --large-font-size: clamp(20px, 2vw, 25px);
     --normal-font-size: clamp(12px, 2vw, 18px);
     --slogan-font-size: clamp(36px, 8vw, 64px);
+    --subtitle-font-size: clamp(28px, 6vw, 44px);
 }
 
 * {
