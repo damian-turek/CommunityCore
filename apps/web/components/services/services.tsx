@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 export const Services = () => {
     const services = [
-        {title: 'Property Management', image: '/services-icons/property-management.svg', description: 'Full-service oversight for residential communities', width: 70, height: 70},
-        {title: 'Financial Administration', image: '/services-icons/financial-administration.svg', description: 'Transparent budgeting, reporting & billing', width: 70, height: 70},
-        {title: 'Property Management', image: '/services-icons/maintenance-coordination.svg', description: 'Reliable support for repairs and upkeep', width: 60, height: 70},
-        {title: 'Community Support', image: '/services-icons/community-support.svg', description: 'Communication, conflict resolution, and engagement', width: 70, height: 70}
+        {title: 'Property Management', image: '/icons/services-icons/property-management.svg', description: 'Full-service oversight for residential communities', width: 70, height: 70},
+        {title: 'Financial Administration', image: '/icons/services-icons/financial-administration.svg', description: 'Transparent budgeting, reporting & billing', width: 70, height: 70},
+        {title: 'Property Management', image: '/icons/services-icons/maintenance-coordination.svg', description: 'Reliable support for repairs and upkeep', width: 60, height: 70},
+        {title: 'Community Support', image: '/icons/services-icons/community-support.svg', description: 'Communication, conflict resolution, and engagement', width: 70, height: 70}
     ]
 
     return (

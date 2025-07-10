@@ -7,7 +7,7 @@ export const Hero = () => {
             <div className={styles.motto}>
                 <h1 className={styles.slogan}>Your home, <span>our priority</span></h1>
                 <Image
-                    src="/arrow.svg"
+                    src="/icons/hero/arrow.svg"
                     alt="arrow"
                     width={450}
                     height={100}
