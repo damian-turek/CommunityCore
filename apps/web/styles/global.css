@@ -1,11 +1,13 @@
 :root {
     --back-ground-color: #F5F7F9;
+    --color-lighter-green: #5DC1A4;
     --color-light-green: #31A889;
     --color-dark-green: #13413F;
     --color-white: #FFFFFF;
 
     --large-font-size: clamp(20px, 2vw, 25px);
     --normal-font-size: clamp(12px, 2vw, 18px);
+    --bigger-font-size: clamp(17px, 2vw, 21px);
     --slogan-font-size: clamp(36px, 8vw, 64px);
     --subtitle-font-size: clamp(28px, 6vw, 44px);
 }
