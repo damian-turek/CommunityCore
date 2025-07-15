@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-import { Header, Hero, Services } from '../components'
+import { Footer, Header, Hero, Services } from '../components'
 
 import '../styles/global.css';
 
@@ -34,6 +34,7 @@ export default function UsersPage() {
                     ))}
                 </ul>
             </main>
+            <Footer/>
         </>
     )
 }
