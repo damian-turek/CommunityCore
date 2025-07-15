@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-import { Footer, Header, Hero, Services } from '../components'
+import { AboutUs, Footer, Header, Hero, Services } from '../components'
 
 import '../styles/global.css';
 
@@ -27,6 +27,7 @@ export default function UsersPage() {
             <main>
                 <Hero/>
                 <Services/>
+                <AboutUs/>
                 <h1>Users</h1>
                 <ul>
                     {users.map(u => (
