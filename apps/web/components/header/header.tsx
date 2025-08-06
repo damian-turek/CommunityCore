@@ -8,7 +8,7 @@ export const Header = () => {
             <h3 className={styles.logo}>Community<span className={styles.logoBold}>Core</span></h3>
             <div className={styles.login}>
                 <Link href='/login' className={styles.button}>Login</Link>
-                <Link href='#' className={styles.button}>Register</Link>
+                <Link href='/register' className={styles.button}>Register</Link>
             </div>
         </header>
     )

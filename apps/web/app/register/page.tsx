@@ -2,10 +2,10 @@ import { Auth } from '../../components'
 
 import '../../styles/global.css'
 
-export default function LoginPage() {
+export default function RegisterPage() {
     return (
         <>
-            <Auth/>
+            <Auth />
         </>
     )
 }

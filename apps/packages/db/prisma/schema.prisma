@@ -18,4 +18,7 @@ model users {
   second_name  String    @db.VarChar(50)
   phone_number String    @db.VarChar(20)
   apartment_id Int?
+  community_id Int?      @default(autoincrement())
+  // TODO: add diffrent tables
+  // community_id Int       community? @relation(fields: [community_id], references: [id])
 }

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import styles from './about-us.module.css'
+import Link from 'next/link'
 
 export const AboutUs = () => (
     <div className={styles.aboutUsContainer}>
@@ -12,7 +13,7 @@ export const AboutUs = () => (
             <p className={styles.text}>
                 Our mission is to empower both residents and administrators with tools that save time, reduce misunderstandings, and foster stronger communities. With our app, everyone stays informed, involved, and connected.
             </p>
-            <button>JOIN US NOW</button>
+            <Link href='/register' className={styles.button}>JOIN US NOW</Link>
         </div>
 
         <div>
