@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from './about-us.module.css'
 
 export const AboutUs = () => (
-    <div className={styles.aboutUsPage}>
+    <div className={styles.aboutUsContainer}>
         <div>
             <h2>ABOUT US</h2>
             <p className={styles.text}>
