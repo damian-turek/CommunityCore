@@ -1,8 +1,11 @@
-.aboutUsPage {
-    margin: 100px 150px;
+.aboutUsContainer {
+    max-width: 1300px;
+
+    margin: 50px 150px;
     padding: 70px 120px 50px;
 
     display: flex;
+    align-items: center;
 
     background-color: var(--color-lighter-green);
     color: var(--color-white);
