@@ -1,11 +1,13 @@
 'use client'
 
-import { useState } from 'react'
-import { LoginRequest } from '@shared/types/auth'
+import Link from 'next/link'
+import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import styles from './login-form.module.css'
+import { LoginRequest } from '@shared/types/auth'
 
-export const LoginForm = () => {
+import styles from '../auth.module.css'
+
+export const Login = () => {
     const router = useRouter()
     const [formData, setFormData] = useState<LoginRequest>({
         email: '',
@@ -81,7 +83,7 @@ export const LoginForm = () => {
                 />
             </label>
             <button type="submit">Sign in</button>
-            <p>Don't have an account? <span>Sign up now!</span></p>
+            <p>Don't have an account? <Link href='/register'>Sign up now!</Link></p>
         </form>
     )
 }
