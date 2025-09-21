@@ -1,0 +1,21 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-areas: 'sidebar header';
+
+    background: linear-gradient(
+            to bottom,
+            #DFF4EE,
+            #7AA89D
+    );
+
+    .sidebar {
+        margin: 10px;
+        grid-area: sidebar;
+
+        border-radius: 20px;
+
+        background-color: rgba(var(--back-ground-color-rgb), 0.8);
+    }
+}

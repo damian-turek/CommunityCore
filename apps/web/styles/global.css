@@ -7,6 +7,8 @@
     --color-light-green: #31A889;
     --color-dark-green: #13413F;
 
+    --back-ground-color-rgb: 245, 247, 249;
+
     --small-font-size: clamp(9px, 1vw, 15px);
     --normal-font-size: clamp(12px, 2vw, 18px);
     --bigger-font-size: clamp(17px, 2vw, 21px);

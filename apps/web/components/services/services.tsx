@@ -1,5 +1,6 @@
-import styles from './services.module.css'
 import Image from 'next/image'
+
+import styles from './services.module.css'
 
 export const Services = () => {
     const services = [
