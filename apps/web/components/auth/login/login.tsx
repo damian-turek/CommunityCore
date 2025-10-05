@@ -39,7 +39,7 @@ export const Login = () => {
             const data = await res.json()
 
             if (res.ok) {
-                router.push('/dashboard')
+                router.push('/admin/dashboard')
             } else {
                 setError(data.errors)
                 console.error('Login failed:', error);

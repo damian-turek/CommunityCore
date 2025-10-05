@@ -1,12 +1,16 @@
 import { SideBarProps } from '../../types/sidebar'
 import Link from 'next/link'
 
+import styles from './sidebar.module.css'
+import { HiOutlineLogout } from 'react-icons/hi'
+
 export const Sidebar = ({ links }: SideBarProps ) => (
-    <nav>
-        <div>
-            {links.map((link) => (
-                <Link href={link.href}>{link.icon}</Link>
+    <nav className={styles.navigation}>
+        <div className={styles.sidebar}>
+            {links.map((link, index) => (
+                <Link key={index} href={link.href}>{link.icon}</Link>
                 ))}
         </div>
+        <HiOutlineLogout />
     </nav>
 )

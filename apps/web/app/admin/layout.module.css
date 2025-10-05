@@ -3,12 +3,7 @@
     display: grid;
     grid-template-columns: 120px 1fr;
     grid-template-areas: 'sidebar header';
-
-    background: linear-gradient(
-            to bottom,
-            #DFF4EE,
-            #7AA89D
-    );
+    background-color: var(--back-ground-color);
 
     .sidebar {
         margin: 10px;
@@ -16,6 +11,14 @@
 
         border-radius: 20px;
 
-        background-color: rgba(var(--back-ground-color-rgb), 0.8);
+        background-color: var(--color-light-grey);
+
+        backdrop-filter: blur(8px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .main {
+        padding: 0;
+        margin: 10px;
     }
 }

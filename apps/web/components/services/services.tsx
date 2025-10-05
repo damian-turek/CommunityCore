@@ -14,8 +14,8 @@ export const Services = () => {
         <section className={styles.servicesSection}>
             <h2 className={styles.subtitle}>Services</h2>
             <div className={styles.services}>
-                {services.map((service) =>
-                    <div className={styles.service}>
+                {services.map((service, index) =>
+                    <div key={index} className={styles.service}>
                         <h4>{service.title}</h4>
                         <Image
                             src={service.image}
